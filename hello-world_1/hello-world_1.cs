@@ -56,6 +56,7 @@ namespace Hello_world_1
 	using System.Globalization;
 	using System.Text;
 	using Skyline.DataMiner.Automation;
+	using Skyline.DataMiner.Core.DataMinerSystem.Automation;
 
 	/// <summary>
 	/// Represents a DataMiner Automation script.
