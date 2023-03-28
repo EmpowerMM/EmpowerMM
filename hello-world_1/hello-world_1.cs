@@ -49,7 +49,7 @@ dd/mm/2023	1.0.0.1		XXX, Skyline	Initial version
 ****************************************************************************
 */
 
-namespace hello-world_1
+namespace Hello_world_1
 {
 	using System;
 	using System.Collections.Generic;
