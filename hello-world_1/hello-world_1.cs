@@ -55,6 +55,7 @@ namespace Hello_world_1
 	using System.Collections.Generic;
 	using System.Globalization;
 	using System.Text;
+	using Empower.Library.Room1;
 	using Skyline.DataMiner.Automation;
 	using Skyline.DataMiner.Core.DataMinerSystem.Automation;
 
@@ -75,7 +76,8 @@ namespace Hello_world_1
 			{
 				engine.GenerateInformation(element.Name);
 			}
-			// Test
+			var order = OrderFactory.CreateOrder("Beer");
+			order.Dispatch("Manuel Mann");
 		}
 	}
 }
