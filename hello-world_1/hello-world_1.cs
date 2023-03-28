@@ -76,7 +76,8 @@ namespace Hello_world_1
 			{
 				engine.GenerateInformation(element.Name);
 			}
-			var order = OrderFactory.CreateOrder("Beer");
+
+			var order = OrderFactory.CreateOrder("Pizza");
 			order.Dispatch("Manuel Mann");
 		}
 	}
