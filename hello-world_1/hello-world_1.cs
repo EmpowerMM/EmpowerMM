@@ -56,7 +56,7 @@ namespace Hello_world_1
 	using System.Globalization;
 	using System.Text;
 	using Skyline.DataMiner.Automation;
-	
+
 	/// <summary>
 	/// Represents a DataMiner Automation script.
 	/// </summary>
@@ -69,6 +69,11 @@ namespace Hello_world_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello world!");
+			var myDMS = engine.GetDms();
+			foreach (var element in myDMS.GetElements())
+			{
+				engine.GenerateInformation(element.Name);
+			}
 			// Test
 		}
 	}
