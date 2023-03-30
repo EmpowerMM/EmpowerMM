@@ -54,7 +54,7 @@
       <Version>1.1.0.2</Version>
     </PackageReference>
     <PackageReference Include="Skyline.DataMiner.Dev.Automation">
-      <Version>10.3.3.1</Version>
+      <Version>10.3.4</Version>
     </PackageReference>
     <PackageReference Include="Skyline.DataMiner.Empower.Library.Room1">
       <Version>1.0.4</Version>
