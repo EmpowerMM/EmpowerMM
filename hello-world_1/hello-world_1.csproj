@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -54,7 +54,7 @@
       <Version>1.1.0.2</Version>
     </PackageReference>
     <PackageReference Include="Skyline.DataMiner.Dev.Automation">
-      <Version>10.3.3.1</Version>
+      <Version>10.3.5</Version>
     </PackageReference>
     <PackageReference Include="Skyline.DataMiner.Empower.Library.Room1">
       <Version>1.0.4</Version>
